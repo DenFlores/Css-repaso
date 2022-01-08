@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(199, 196, 196);
+    
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    background-color: gray;
+    color: honeydew;
+    text-align: left;
+    width: 850px;
+    height: 30px;
+
+    
+}
+.img{
+    width: 120px;
+    height: 120px;
+}
+.cajas{
+    align-self:center;
+}

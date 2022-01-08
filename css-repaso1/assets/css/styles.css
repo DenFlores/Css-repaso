@@ -1,0 +1,44 @@
+body{
+    /*ajusta los espacios entre el contenido*/
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: rgb(207, 146, 146);
+    height: 50px;
+}
+.menu ul{
+    
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu .elementos{
+    display: inline;
+    /*margin para acomodar elementos, primer valor arriba y abajo, segundo valor izquierda derecha*/
+    margin: 0 20px;
+    padding: 10px;
+    
+    
+}
+.menu .elementos:hover{
+    background-color: rgb(219, 79, 79);
+}
+.elementos a{
+    font-size: 24px;
+    color: aliceblue;
+    /*line heigth centra el texto*/
+    /*text-decoration: none; quita los estilos que se aplican por defecto al texto de enlace
+*/
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Yellowtail', cursive;
+    /* esta tardando 3 milisegundos en cambiar el color*/
+    transition: color 3s;
+}
+/*cuando pasas el mouse cambia el elemento*/
+.elementos a:hover{
+    color: rgb(34, 7, 7);
+    /*crece cuando pasas el mouse*/
+    font-size: 30px;
+}
